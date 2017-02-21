@@ -1,5 +1,4 @@
-#评论关闭
-如果有意见或建议请到[Issues](https://git.oschina.net/hbbcs/bootStrap-addTabs/issues)中发表。
+Bootstrap.addtabs.js is a bootstrap of the tabs extension. You can use it to automatically create, close, drop tabs, create tabs can be used to load ajax / iframe, or directly specify the content. At the same time, you can also use the right tab on the tabs tab to close, refresh the tab. 
 
 #UPDATE
 - 2017/02/15 规范代码，修正BUG
@@ -15,7 +14,7 @@
 - 11月增加了折叠TABS的代码，防止打开过多影响页面
 - 最近在做一个前端，需要点击按钮创建一个可关闭的标签页，没有找到合适的，最后想到不如改造一下bootstrap省事。
 
-#使用方法
+#Usage
 
 具体请查看[index.html](http://git.oschina.net/hbbcs/bootStrap-addTabs/blob/master/index.html)文件
 ```
@@ -38,7 +37,7 @@ $(function() {
 })
 ```
 
-##参数
+#Options
 ```
 content      string|html   直接指定内容
 close        bool          是否可以关闭，默认是true
